@@ -1,241 +1,425 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 
-<head>
-    <!-- Meta tags Obrigatórias -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tech2etc Ecommerce Tutorial</title>
+        <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
-        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css">
+    </head>
 
-    <!-- Font Awesome -->
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
-        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <body>
 
-    <!-- HTML5Shiv -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/
-        html5shiv.min.js"></script>
-    <![endif]-->
+        <section id="header">
+            <a href="#"><img src="img/logo.png" width="142" class="logo" alt="logo"></a>
 
-    <!-- CSS -->
-    <link rel="stylesheet" type="text/css" href="css/estilo.css">
-
-    <title>B2C - BIKE</title>
-    <link rel="icon" href="imagens/favicon.png">
-</head>
-
-<body class="opacity">
-
-    <header> <!-- Inicio Cabeçalho -->
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
-            <div class="container">
-                <a href="index.html" class="navbar-brand">
-                    <img src="imagens/logo2.png" width="142">
-                </a>
-
-                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-                    <i class="fas fa-bars text-white"></i>
-                </button>
-
-                <div class="collapse navbar-collapse" id="nav-principal">
-                    <ul class="navbar-nav ml-auto">
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Componentes</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Acessórios</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="" class="nav-link">Vestuários</a>
-                        </li>
-                        <li class="nav-item divisor"></li>
-                        <li class="nav-item">
-                            <a href="cadastro.html" class="nav-link">Inscrever-se</a>
-                        </li>
-                        <li class="nav-item">
-                            <a href="login.html" class="nav-link">Entrar</a>
-                        </li>
-                    </ul>
-                </div>
+            <div>
+                <ul id="navbar">
+                    <li><a class="active" href="index.html">Home</a></li>
+                    <li><a href="about.html">Sobre</a></li>
+                    <li><a href="contact.html">Contato</a></li>
+                    <li id="lg-bag"><a href="login.html"><i class="far fa-user"></i> Sign in/Sign Up</a></li>
+                    <a href="#" id="close"><i class="far fa-times"></i></a>
+                </ul>
             </div>
-        </nav>
-    </header> <!-- Fim Cabeçalho -->
+            <div id="mobile">
+                <a href="cart.html"><i class="far fa-shopping-bag"></i></a>
+                <i id="bar" class="fas fa-outdent"></i>
+            </div>
+        </section>
 
-    <section id="home" class="d-flex">
-        <div class="container align-self-center">
-            <div class="row">
-                <div class="col-md-12 capa">
+        <section id="hero">
+            <h4>Ofertas da semana</h4>
+            <h2>10% Off em pagamentos por pix</h2>
+            <h1>Em todos os produtos</h1>
+            <p>Economize mais com cupons em até 70% de desconto!</p>
+            <button>Compre Agora</button>
+        </section>
 
-                    <div id="carousel-loja" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <h1>Os melhores acessórios e vestuários</h1>
-                                <a href="" class="btn btn-lg btn-custom btn-verde">
-                                    Conheça nossos acessórios
-                                </a>
-                                <a href="" class="btn btn-lg btn-custom btn-branco">
-                                    Conheça nossos vestuários
-                                </a>
-                            </div>
+        <section id="feature" class="section-p1">
+            <div class="fe-box">
+                <img src="img/features/f1.png" alt="">
+                <h6>Frete Grátis na Região</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/f2.png" alt="">
+                <h6>Pedido Online</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/f3.png" alt="">
+                <h6>Economize</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/f4.png" alt="">
+                <h6>Promoções</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/f5.png" alt="">
+                <h6>Venda Feliz</h6>
+            </div>
+            <div class="fe-box">
+                <img src="img/features/f6.png" alt="">
+                <h6>Suporte 24h</h6>
+            </div>
+        </section>
 
-                            <div class="carousel-item">
-                                <h1>Os melhores componentes</h1>
-                                <a href="" class="btn btn-lg btn-custom btn-branco">
-                                    <i class="fas fa-bicycle"></i> Veja agora
-                                </a>
-                            </div>
+        <section id="product1" class="section-p1">
+            <h2>Produtos em Destaque</h2>
+            <p>Coleção de Verão Novo Design</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
-                        <!-- Controles -->
-                        <a href="#carousel-loja" class="carousel-control-prev" data-slide="prev">
-                            <i class="fas fa-angle-left fa-3x"></i>
-                        </a>
-                        <a href="#carousel-loja" class="carousel-control-next" data-slide="next">
-                            <i class="fas fa-angle-right fa-3x"></i>
-                        </a>
+                        <h4>$78</h4>
                     </div>
-
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="servicos" class="caixa">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="row produtos">
-                        <div class="col-md-6">
-                            <img src="imagens/img1.jpg" class="img-fluid d-none d-md-block">
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
-                        <div class="col-md-6">
-                            <img src="imagens/img2.jpg" class="img-fluid d-none d-md-block">
-                        </div>
+                        <h4>$78</h4>
                     </div>
-                    <div class="row produtos">
-                        <div class="col-md-6">
-                            <img src="imagens/img3.jpg" class="img-fluid d-none d-md-block">
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
-                        <div class="col-md-6">
-                            <img src="imagens/img4.jpg" class="img-fluid d-none d-md-block">
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
                         </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="banner" class="section-m1">
+            <h4>DESCONTO</h4>
+            <h2>Até <span>70% Off</span> - Na Sua Terceira Compra</h2>
+            <button class="normal">Ver Mais</button>
+        </section>
+
+        <section id="product1" class="section-p1">
+            <h2>Novidades</h2>
+            <p>Venha Aproveitar As Novidades Da Loja</p>
+            <div class="pro-container">
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+                <div class="pro">
+                    <img src="img/products/img3.jpg" alt="">
+                    <div class="des">
+                        <span>adidas</span>
+                        <h5>Camiseta Ciclista</h5>
+                        <div class="star">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                        </div>
+                        <h4>$78</h4>
+                    </div>
+                    <a href="#"><i class="fal fa-shopping-cart cart"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <section id="sm-banner" class="section-p1">
+            <div class="banner-box">
+                <h4>Ofertas Malucas</h4>
+                <h2>Por pouco tempo </h2>
+                <span>Os melhores componentes para sua bicicleta você encontra aqui!</span>
+                <button class="white">Confira</button>
+            </div>
+            <div class="banner-box banner-box2">
+                <h4>Primavera/Verão</h4>
+                <h2>Próxima estação</h2>
+                <span>Roupas confortáveis para a época!</span>
+                <button class="white">Confira</button>
+            </div>
+        </section>
+
+        <section id="newsletter" class="section-p1 section-m1">
+            <div class="newstext">
+                <h4>Faça seu login para receber novidades</h4>
+                <p>Receba notificações por e-mail sobre novos proedutos e <span>ofertas especiais.</span></p>
+            </div>
+            <div class="form">
+                <input type="text" placeholder="Seu email">
+                <button class="normal">Sign Up</button>
+            </div>
+        </section>
+
+        <footer class="section-p1">
+            <div class="col">
+                <img class="logo" src="img/logo.png" width="142" alt="">
+                <h4>Contato</h4>
+                <p><strong>Endereço:</strong> Araraquara, SP</p>
+                <p><strong>Telefone:</strong>+55169999-9999 | +55169999-9999</p>
+                <p><strong>Horário:</strong>10:00 - 18:00, Seg - Sab</p>
+                <div class="follow">
+                    <h4>Nos siga</h4>
+                    <div class="icon">
+                        <i class="fab fa-facebook"></i>
+                        <i class="fab fa-twitter"></i>
+                        <i class="fab fa-instagram"></i>
                     </div>
                 </div>
-                <div class="col-md-6">
-                    <h2>O que B2C Bike tem?</h2>
-
-                    <h3>Acessórios</h3>
-                    <p>Texto aleatório falando algo Texto aleatório falando algo
-                        Texto aleatório falando algo Texto aleatório falando algo
-                        Texto aleatório falando algo
-                    </p>
-
-                    <h3>Componentes</h3>
-                    <p>Texto aleatório falando algo Texto aleatório falando algo
-                        Texto aleatório falando algo Texto aleatório falando algo
-                        Texto aleatório falando algo
-                    </p>
-
-                    <h3>Vestuários</h3>
-                    <p>Texto aleatório falando algo Texto aleatório falando algo
-                        Texto aleatório falando algo Texto aleatório falando algo
-                    </p>
-
-                </div>
             </div>
-        </div>
-    </section>
 
-    <section id="recursos" class="caixa">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-4">
-                    <h2>Fácil</h2>
-
-                    <h3>Buscar</h3>
-                    <p>Já sabe o que quer comprar?
-                    </p>
-
-                    <h3>Navegar</h3>
-                    <p>Veja os novos lançamentos.
-                    </p>
-
-                    <h3>Descobrir</h3>
-                    <p>Descubra coisas novas.
-                    </p>
-                </div>
-                <div class="col-md-8">
-                    <div class="row rotacionar">
-                        <div class="col-md-6">
-                            <img src="imagens/cel1.png" width="250" class="img-fluid">
-                        </div>
-                        <div class="col-md-6">
-                            <img src="imagens/cel2.png" width="250" class="img-fluid">
-                        </div>
-                    </div>
-                </div>
+            <div class="col">
+                <h4>Sobre</h4>
+                <a href="#">Sobre Nós</a>
+                <a href="#">Informação de entrega</a>
+                <a href="#">Política de Privacidade</a>
+                <a href="#">Termos & Condições</a>
+                <a href="#">Entre em contato</a>
             </div>
-        </div>
-    </section>
 
-    <footer>
-        <div class="container">
-            <div class="row">
-                <div class="col-md-2">
-                    <img src="imagens/logo2.png" width="142">
-                </div>
-                <div class="col-md-2">
-                    <h4>company</h4>
-                    <ul class="navbar-nav">
-                        <li><a href="">Sobre</a></li>
-                        <li><a href="">Empregos</a></li>
-                        <li><a href="">Novidades</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-2">
-                    <h4>links uteis</h4>
-                    <ul class="navbar-nav">
-                        <li><a href="">Ajuda</a></li>
-                        <li><a href="">Presentes</a></li>
-                    </ul>
-                </div>
-                <div class="col-md-4">
-                    <ul>
-                        <li>
-                            <a href="">
-                                <img src="imagens/facebook.png">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="imagens/twitter.png">
-                            </a>
-                        </li>
-                        <li>
-                            <a href="">
-                                <img src="imagens/instagram.png">
-                            </a>
-                        </li>
-                    </ul>
-                </div>
+            <div class="col">
+                <h4>Minha conta</h4>
+                <a href="#">Sign In</a>
+                <a href="#">Carrinho</a>
+                <a href="#">Minha Lista de Desejos</a>
+                <a href="#">Acompanhar o meu pedido</a>
+                <a href="#">Ajuda</a>
             </div>
-        </div>
-    </footer>
 
+            <div class="col install">
+                <h4>Instalar aplicativo</h4>
+                <p>App Store ou Google Play</p>
+                <div class="row">
+                    <img src="img/pay/app.jpg" alt="">
+                    <img src="img/pay/play.jpg" alt="">
+                </div>
+                <p>Gateways de pagamentos seguros</p>
+                <img src="img/pay/pay.png" alt="">
+            </div>
 
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-        crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
-        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
-        crossorigin="anonymous"></script>
-</body>
+            <div class="copyright">
+                <p>&copy 2024, Bike E-Commerce - Naju</p>
+            </div>
+        </footer>
+
+        <script src="script.js"></script>
+    </body>
 
 </html>
