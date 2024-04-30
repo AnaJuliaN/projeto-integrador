@@ -32,7 +32,7 @@ $pass = "";
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Tech2etc Ecommerce Tutorial</title>
+        <title>B2C - BIKE</title>
         <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
 
         <link rel="stylesheet" href="style.css">
@@ -51,7 +51,7 @@ $pass = "";
                     <li><a href="about2.html">Sobre</a></li>
                     <li><a href="contact2.html">Contato</a></li>
                     <li id="lg-bag"><a href="cart.html"><i class="far fa-shopping-bag"></i></a></li>
-                    <li><a href="#"><i class="far fa-sign-out-alt"></i></a></li>
+                    <li><a href="index.html"><i class="far fa-sign-out-alt"></i></a></li>
                     <a href="#" id="close"><i class="far fa-times"></i></a>
                 </ul>
             </div>
@@ -400,7 +400,7 @@ $pass = "";
 
         <footer class="section-p1">
             <div class="col">
-                <img class="logo" src="img/logo.png" width="142" alt="">
+                <img class="logo" src="img/logo2.png" width="142" alt="">
                 <h4>Contato</h4>
                 <p><strong>Endereço:</strong> Araraquara, SP</p>
                 <p><strong>Telefone:</strong>+55169999-9999 | +55169999-9999</p>
